@@ -64,9 +64,8 @@ document.getElementById('product-form')
       return ui.showMessage('Complete Fields Please', 'danger');
     }
     ui.addProduct(product);
-    ui.resetForm();
     ui.showMessage('Product Added Succesfully', 'success');
-
+    ui.resetForm();
     e.preventDefault();
 });
 
